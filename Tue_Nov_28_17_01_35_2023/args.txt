@@ -1,0 +1,16 @@
+lr,0.00025
+env,BreakoutNoFrameskip-v4
+lives,True
+stacked_frames,4
+gamma,0.99
+lam,0.95
+eps,0.1
+c1,1.0
+c2,0.01
+minibatch_size,32
+actors,8
+T,129
+epochs,3
+total_steps,10000000
+save_model_steps,1000000
+report,50000
